@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity = "bottom|center"
+    tools:context="com.coders.crud.kppay.MainMenuActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SCAN"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="515dp"
+        android:onClick="onScanBtClicked"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/button"
+        android:text="WALLET"
+        tools:layout_editor_absoluteX="192dp"
+        tools:layout_editor_absoluteY="515dp"
+        android:onClick="onWalletBtClicked"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/button2"
+        android:text="SEARCH"
+        tools:layout_editor_absoluteX="280dp"
+        tools:layout_editor_absoluteY="515dp"
+        android:onClick="onSearchBtClicked"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/button3"
+        android:text="CART"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="515dp"
+        android:onClick="onCartBtClicked"/>
+</RelativeLayout>
