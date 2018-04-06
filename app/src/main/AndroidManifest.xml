@@ -26,9 +26,11 @@
         <activity android:name=".CompleteActivity" />
         <activity android:name=".PayInfoActivity" />
         <activity android:name=".PaymentActivity" />
-        <activity android:name=".CustomerLogInActivity" />
-        <activity android:name=".SellerLogInActivity" />
-        <activity android:name=".CustomerSearchActivity"></activity>
+        <activity android:name=".CustomerSearchActivity" />
+        <activity android:name=".CustomerSignUpActivity" />
+        <activity android:name=".SellerSignUpActivity" />
+        <activity android:name=".LogInActivity" />
+        <activity android:name=".QRcodeResultActivity"></activity>
     </application>
 
 </manifest>

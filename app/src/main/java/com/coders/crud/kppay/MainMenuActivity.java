@@ -47,6 +47,8 @@ public class MainMenuActivity extends AppCompatActivity {
             } else {
                 // 스캔된 QRCode --> result.getContents()
                 Toast.makeText(this, "Scanned: " + result.getContents(), Toast.LENGTH_LONG).show();
+                Intent intent = new Intent(this, QRcodeResultActivity.class);
+                startActivity(intent);
             }
         } else {
             super.onActivityResult(requestCode, resultCode, data);

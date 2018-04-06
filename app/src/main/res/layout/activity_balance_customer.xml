@@ -14,7 +14,7 @@
         android:layout_height="42dp"
 
         android:layout_x="311dp"
-        android:layout_y="185dp"
+        android:layout_y="195dp"
         android:background="@drawable/search_icon_balance"
         tools:layout_editor_absoluteX="302dp"
         tools:layout_editor_absoluteY="130dp" />
@@ -35,7 +35,7 @@
         android:layout_width="250dp"
         android:layout_height="45dp"
         android:layout_x="33dp"
-        android:layout_y="185dp"
+        android:layout_y="196dp"
         android:text="상품 검색"
         tools:layout_editor_absoluteX="38dp"
         tools:layout_editor_absoluteY="130dp" />
@@ -44,9 +44,10 @@
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="134dp"
-        android:layout_y="126dp"
+        android:layout_x="139dp"
+        android:layout_y="142dp"
         android:text="123,456,000"
+        android:textColor="@android:color/background_light"
         android:textSize="35sp"
         android:textStyle="italic"
         tools:layout_editor_absoluteX="204dp"

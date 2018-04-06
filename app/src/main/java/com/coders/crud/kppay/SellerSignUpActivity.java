@@ -3,11 +3,11 @@ package com.coders.crud.kppay;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class SellerLogInActivity extends AppCompatActivity {
+public class SellerSignUpActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_seller_log_in);
+        setContentView(R.layout.activity_seller_sign_up);
     }
 }

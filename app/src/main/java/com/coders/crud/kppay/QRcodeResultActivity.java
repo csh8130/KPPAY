@@ -3,11 +3,11 @@ package com.coders.crud.kppay;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class CustomerLogInActivity extends AppCompatActivity {
+public class QRcodeResultActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_customer_log_in);
+        setContentView(R.layout.activity_qrcode_result);
     }
 }
