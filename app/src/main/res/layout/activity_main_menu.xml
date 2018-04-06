@@ -14,7 +14,6 @@
         android:layout_height="70dp"
         android:background="@drawable/qrcode_button_customer_main"
         android:onClick="onScanBtClicked"
-        android:text="SCAN"
         tools:layout_editor_absoluteX="104dp"
         tools:layout_editor_absoluteY="515dp" />
 
@@ -25,7 +24,6 @@
         android:layout_toRightOf="@id/button"
         android:background="@drawable/wallet_button_customer_main"
         android:onClick="onWalletBtClicked"
-        android:text="WALLET"
         tools:layout_editor_absoluteX="192dp"
         tools:layout_editor_absoluteY="515dp" />
 
@@ -36,7 +34,6 @@
         android:layout_toRightOf="@id/button2"
         android:background="@drawable/search_button_customer_main"
         android:onClick="onSearchBtClicked"
-        android:text="SEARCH"
         tools:layout_editor_absoluteX="280dp"
         tools:layout_editor_absoluteY="515dp" />
 
@@ -47,7 +44,6 @@
         android:layout_toRightOf="@id/button3"
         android:background="@drawable/cart_button_customer_main"
         android:onClick="onCartBtClicked"
-        android:text="CART"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="515dp" />
 </RelativeLayout>

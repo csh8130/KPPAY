@@ -19,7 +19,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainMenuActivity" />
-        <activity android:name=".SellerMenuActivity"></activity>
+        <activity android:name=".SellerMenuActivity" />
+        <activity android:name=".AddItemActivity"></activity>
     </application>
 
 </manifest>

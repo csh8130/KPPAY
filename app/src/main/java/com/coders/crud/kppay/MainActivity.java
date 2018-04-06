@@ -135,6 +135,6 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(MainActivity.this, MainMenuActivity.class));
     }
     public void onSignUpBtClicked(View v){
-
+        startActivity(new Intent(MainActivity.this, SellerMenuActivity.class));
     }
 }

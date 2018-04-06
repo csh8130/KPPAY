@@ -13,8 +13,7 @@
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:background="@drawable/add_button_seller_main"
-        android:onClick="onAddBtClicked"
-        android:text="상품등록" />
+        android:onClick="onAddBtClicked" />
 
     <Button
         android:id="@+id/button6"
@@ -22,8 +21,7 @@
         android:layout_height="70dp"
         android:layout_toRightOf="@+id/button5"
         android:background="@drawable/wallet_button_customer_main"
-        android:onClick="onSellerWalletBtClicked"
-        android:text="지갑" />
+        android:onClick="onSellerWalletBtClicked" />
 
     <Button
         android:id="@+id/button9"
@@ -31,8 +29,7 @@
         android:layout_height="70dp"
         android:layout_toRightOf="@+id/button6"
         android:background="@drawable/state_button_seller_main"
-        android:onClick="onStatsBtClicked"
-        android:text="통계" />
+        android:onClick="onStatsBtClicked" />
 
     <Button
         android:id="@+id/button10"
@@ -40,7 +37,6 @@
         android:layout_height="70dp"
         android:layout_toRightOf="@+id/button9"
         android:background="@drawable/setting_button_seller_main"
-        android:onClick="onSettingBtClicked"
-        android:text="설정" />
+        android:onClick="onSettingBtClicked" />
 
 </RelativeLayout>

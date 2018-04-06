@@ -11,17 +11,20 @@
     tools:layout_editor_absoluteX="70dp"
     tools:layout_editor_absoluteY="0dp">
 
-    <Button
-        android:id="@+id/button7"
-        android:layout_width="250dp"
-        android:layout_height="50dp"
-        android:layout_gravity="center"
-        android:background="@drawable/login_button_main" />
 
-    <Button
-        android:id="@+id/button8"
+    <ImageButton
+        android:id="@+id/imageButton7"
         android:layout_width="250dp"
         android:layout_height="50dp"
         android:layout_gravity="center"
-        android:background="@drawable/signup_button_main" />
+        android:onClick="onSignInBtClicked"
+        app:srcCompat="@drawable/login_button_main" />
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:onClick="onSignUpBtClicked"
+        app:srcCompat="@drawable/signup_button_main" />
 </LinearLayout>
