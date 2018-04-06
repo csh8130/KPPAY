@@ -132,6 +132,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void onSignInBtClicked(View v){
+        ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.CAMERA},1000);
         startActivity(new Intent(MainActivity.this, LogInActivity.class));
     }
     public void onSignUpBtClicked(View v){

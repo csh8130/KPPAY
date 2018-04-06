@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:gravity = "bottom|center"
 
-    android:background="@drawable/customer_main_screen"
+    android:background="@drawable/customer_main_menu"
     tools:context="com.coders.crud.kppay.MainMenuActivity">
 
     <Button
@@ -15,6 +15,8 @@
         android:layout_height="70dp"
         android:background="@drawable/qrcode_button_customer_main"
         android:onClick="onScanBtClicked"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentBottom="true"
         tools:layout_editor_absoluteX="104dp"
         tools:layout_editor_absoluteY="515dp" />
 
@@ -23,28 +25,32 @@
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:layout_toRightOf="@id/button"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
         android:background="@drawable/wallet_button_customer_main"
         android:onClick="onWalletBtClicked"
-        tools:layout_editor_absoluteX="192dp"
-        tools:layout_editor_absoluteY="515dp" />
+         />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:layout_toRightOf="@id/button2"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
         android:background="@drawable/search_button_customer_main"
         android:onClick="onSearchBtClicked"
-        tools:layout_editor_absoluteX="280dp"
-        tools:layout_editor_absoluteY="515dp" />
+        />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:layout_toRightOf="@id/button3"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10px"
         android:background="@drawable/cart_button_customer_main"
         android:onClick="onCartBtClicked"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="515dp" />
+         />
 </RelativeLayout>

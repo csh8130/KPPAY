@@ -30,7 +30,8 @@
         <activity android:name=".CustomerSignUpActivity" />
         <activity android:name=".SellerSignUpActivity" />
         <activity android:name=".LogInActivity" />
-        <activity android:name=".QRcodeResultActivity"></activity>
+        <activity android:name=".QRcodeResultActivity" />
+        <activity android:name=".ConfirmActivity"></activity>
     </application>
 
 </manifest>
