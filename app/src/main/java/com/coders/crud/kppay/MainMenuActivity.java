@@ -18,15 +18,19 @@ public class MainMenuActivity extends AppCompatActivity {
     }
 
     public void onWalletBtClicked(View v){
+        Intent intent = new Intent(MainMenuActivity.this, BalanceCustomerActivity.class);
+        startActivity(intent);
 
     }
     public void onSearchBtClicked(View v){
-
+        Intent intent = new Intent(MainMenuActivity.this, CustomerSearchActivity.class);
+        startActivity(intent);
 
     }
     public void onCartBtClicked(View v){
 
-
+        Intent intent = new Intent(MainMenuActivity.this, CartActivity.class);
+        startActivity(intent);
     }
     public void onScanBtClicked(View v){
         new IntentIntegrator(this).initiateScan();

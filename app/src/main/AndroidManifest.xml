@@ -20,7 +20,15 @@
         </activity>
         <activity android:name=".MainMenuActivity" />
         <activity android:name=".SellerMenuActivity" />
-        <activity android:name=".AddItemActivity"></activity>
+        <activity android:name=".AddItemActivity" />
+        <activity android:name=".CartActivity" />
+        <activity android:name=".BalanceCustomerActivity" />
+        <activity android:name=".CompleteActivity" />
+        <activity android:name=".PayInfoActivity" />
+        <activity android:name=".PaymentActivity" />
+        <activity android:name=".CustomerLogInActivity" />
+        <activity android:name=".SellerLogInActivity" />
+        <activity android:name=".CustomerSearchActivity"></activity>
     </application>
 
 </manifest>
