@@ -1,15 +1,14 @@
 package com.coders.crud.kppay;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.Toast;
 
 import com.google.zxing.integration.android.IntentIntegrator;
 import com.google.zxing.integration.android.IntentResult;
 
-public class MainMenuActivity extends AppCompatActivity {
+public class MainMenuActivity2 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,18 +17,18 @@ public class MainMenuActivity extends AppCompatActivity {
     }
 
     public void onWalletBtClicked(View v){
-        Intent intent = new Intent(MainMenuActivity.this, BalanceCustomerActivity.class);
+        Intent intent = new Intent(MainMenuActivity2.this, BalanceCustomerActivity.class);
         startActivity(intent);
 
     }
     public void onSearchBtClicked(View v){
-        Intent intent = new Intent(MainMenuActivity.this, CustomerSearchActivity.class);
+        Intent intent = new Intent(MainMenuActivity2.this, CustomerSearchActivity.class);
         startActivity(intent);
 
     }
     public void onCartBtClicked(View v){
 
-        Intent intent = new Intent(MainMenuActivity.this, CartActivity.class);
+        Intent intent = new Intent(MainMenuActivity2.this, CartActivity.class);
         startActivity(intent);
     }
     public void onScanBtClicked(View v){

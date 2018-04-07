@@ -15,8 +15,8 @@ public class ConfirmActivity extends AppCompatActivity {
     }
 
     public void onOKBtnClick(View v){
-        Toast.makeText(this,"수치확인이 완료되었습니다.", Toast.LENGTH_LONG).show();
-        Intent i = new Intent(this, MainMenuActivity.class);
+        Toast.makeText(this,"수취확인이 완료되었습니다.", Toast.LENGTH_LONG).show();
+        Intent i = new Intent(this, CompleteActivity2.class);
         startActivity(i);
     }
 }

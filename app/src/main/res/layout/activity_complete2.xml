@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/order_screen"
+    android:background="@drawable/complete_screen2"
     tools:context=".CompleteActivity">
 
     <TextView
@@ -13,7 +13,7 @@
         android:layout_height="50dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="1200px"
-        android:text="147,000원"
+        android:text=""
         android:textColor="@android:color/holo_red_light"
         android:textSize="35dp"
         android:textStyle="italic" />
